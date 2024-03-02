@@ -31,6 +31,8 @@ namespace DryClean.DL.EfCoreContexts
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+
+
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.Load("DryClean.Entities"));
         }
     }
